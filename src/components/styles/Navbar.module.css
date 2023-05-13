@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    min-height: 15vh;
+    margin-bottom: 4%;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.menu {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    background: #f18111;  
+    background: -webkit-linear-gradient(to right, #f5af19, #f15111); 
+    background: linear-gradient(to right, #f5af19, #f15111); 
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin-top: 2%;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+.menu li:hover {
+    box-shadow: 0px 3px rgba(255, 255, 255, 0.75);
+}
