@@ -15,7 +15,6 @@ export default function About() {
           <Image
             src="/company.jpg"
             fill={true}
-            style={{ objectFit: "cover" }}
             alt="Notebook com café"
           />
         </div>
@@ -54,7 +53,6 @@ export default function About() {
           <Image
             src="/lugar.jpg"
             fill={true}
-            style={{ objectFit: "cover" }}
             alt="Lugar do office"
           />
         </div>
@@ -66,7 +64,6 @@ export default function About() {
             src="/grãos.jpg"
             fill={true}
             alt="Grãos"
-            style={{ objectFit: "cover" }}
           />
         </div>
         <div className={styles.text}>

@@ -15,7 +15,6 @@ export default function CardCoffee(props :CardCoffeeProps) {
         <Image
           src={props.image}
           alt="coffee"
-          style={{ objectFit: "cover" }}
           fill={true}
         />
       </div>

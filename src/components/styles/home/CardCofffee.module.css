@@ -8,6 +8,14 @@
     height: 70vh;
     position: relative;
     flex-direction: column;
+    overflow: hidden;
+}
+.image img {
+    object-fit: cover;
+    transition: all 300ms ease-in-out;
+}
+.image img:hover {
+    transform: scale(1.1);
 }
 
 .info {
