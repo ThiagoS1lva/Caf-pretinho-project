@@ -13,6 +13,7 @@
 }
 .row {
     display: flex;
+    margin-top: 8%;
     justify-content:center;
 }
 .img {

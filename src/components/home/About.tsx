@@ -1,9 +1,16 @@
+/* eslint-disable */
 import Image from "next/image";
 import styles from "../styles/About.module.css";
+import { useContext } from "react";
+import { Context } from "@/data/contexts/Contexts";
 
 export default function About() {
+  type ContextProp = {
+    sectionSobreRef: any;
+  }
+  const { sectionSobreRef } = useContext<ContextProp>(Context);
   return (
-    <div className={styles.container}>
+    <div ref={sectionSobreRef} className={styles.container}>
       <div className={styles.row}>
         <div className={styles.img}>
           <Image
