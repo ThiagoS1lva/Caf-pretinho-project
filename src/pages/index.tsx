@@ -4,6 +4,7 @@ import Images from '@/components/Images'
 import Head from 'next/head'
 import About from '@/components/About'
 
+import { Analytics } from '@vercel/analytics/react'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Images/>
       <About/>
       <p style={{minHeight:'100vh'}}>.</p>
+      <Analytics/>
     </>
   )
 }
