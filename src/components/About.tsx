@@ -56,8 +56,27 @@ export default function About() {
       </div>
 
       <div className={styles.row}>
-        <div>image</div>
-        <div>text</div>
+        <div className={styles.img}>
+            <Image src="/grão.jpg" fill={true}  alt="Grãos" style={{ objectFit: "cover" }}/>
+        </div>
+        <div className={styles.text}>
+          <h1>
+            Torra<br></br> dos grãos
+          </h1>
+          <p className={styles.paragrafo1}>
+            Nossa torrefação de café é um dos principais diferenciais que
+            garantem a qualidade e o sabor incomparável de nossos produtos.
+            Selecionamos cuidadosamente grãos especiais de diversas partes do
+            mundo e utilizamos um processo de torra artesanal, em que cada lote
+            é tratado de forma individual e personalizada para extrair o máximo
+            de sabor e aroma. Com anos de experiência e paixão pelo café, nossa
+            equipe de torrefadores domina a técnica para criar blends exclusivos
+            e equilibrados, capazes de surpreender os paladares mais exigentes.
+            O resultado é um café de alta qualidade, rico em sabores e nuances
+            que encantam e cativam nossos clientes. Venha experimentar e
+            descobrir o verdadeiro sabor do café torrado com excelência.
+          </p>
+        </div>
       </div>
     </div>
   );
