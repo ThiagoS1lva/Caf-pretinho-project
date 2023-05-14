@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    width: 80%;
+    margin: 4% auto 0 auto;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container p {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+
+.container button {
+    border: none;
+    border-radius: 10px;
+    width: 155px;
+    height: 40px;
+    margin: 3% auto 0 auto;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: all 200ms ease-in;
+    color: white;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container button:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+}
