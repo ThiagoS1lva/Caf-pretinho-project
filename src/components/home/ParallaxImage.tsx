@@ -1,4 +1,4 @@
-import styles from "../styles/ParallaxImage.module.css";
+import styles from "../styles/home/ParallaxImage.module.css";
 
 export default function ParallaxImage() {
   return (

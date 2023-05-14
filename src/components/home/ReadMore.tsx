@@ -1,4 +1,4 @@
-import styles from "../styles/ReadMore.module.css";
+import styles from "../styles/home/ReadMore.module.css";
 
 export default function ReadMore() {
   return (
@@ -12,9 +12,6 @@ export default function ReadMore() {
           experimente o verdadeiro sabor do café em um ambiente acolhedor com
           atendimento personalizado.
         </p>
-      </div>
-      <div className={styles.readMore}>
-        <button>Leia Mais</button>
       </div>
     </div>
   );

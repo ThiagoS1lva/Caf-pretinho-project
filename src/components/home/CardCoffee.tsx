@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../styles/CardCofffee.module.css";
+import styles from "../styles/home/CardCofffee.module.css";
 
 type CardCoffeeProps = {
     image: string;

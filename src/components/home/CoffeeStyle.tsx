@@ -1,5 +1,5 @@
 import CardCoffee from "./CardCoffee";
-import styles from "../styles/CoffeeStyle.module.css";
+import styles from "../styles/home/CoffeeStyle.module.css";
 import Image from "next/image";
 
 export default function CoffeeStyle() {

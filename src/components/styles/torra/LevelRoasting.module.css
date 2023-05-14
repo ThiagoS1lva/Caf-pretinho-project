@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 5% auto 0 auto;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.text {
+    width: 50%;
+}
+.text h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+.text p {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: justify;
+    width: 90%;
+    margin:  10% auto 0 auto;
+    line-height: 1.6em;
+}
+.img {
+    position: relative;
+    width: 50%;
+    height: 80vh;
+}
+.img img {
+    object-fit: cover;
+}

@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+}
+.text h1 {
+    font-size: 3em;
+    margin-bottom: 2%;
+}
+.text p {
+    font-size: 1.5em;
+    margin-bottom: 2%;
+}
+
+.image {
+    position: relative;
+    height: 77vh;
+    width: 100%;
+}
+.image img {
+    object-fit: cover;
+    border-radius: 5px;
+}

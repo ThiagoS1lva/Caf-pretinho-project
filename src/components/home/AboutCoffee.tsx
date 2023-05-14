@@ -1,4 +1,5 @@
-import styles from "../styles/AboutCoffee.module.css";
+import Link from "next/link";
+import styles from "../styles/home/AboutCoffee.module.css";
 
 export default function AboutCoffee() {
   return (
@@ -14,7 +15,7 @@ export default function AboutCoffee() {
         para seu paladar. Venha conhecer nossos tipos de café e se apaixonar por
         essa deliciosa bebida!
       </p>
-      <button>Leia mais</button>
+      <Link href="/Torra"><button>Leia mais</button></Link>
     </div>
   );
 }

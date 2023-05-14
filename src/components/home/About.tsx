@@ -1,6 +1,5 @@
-/* eslint-disable */
 import Image from "next/image";
-import styles from "../styles/About.module.css";
+import styles from "../styles/home/About.module.css";
 import { useContext } from "react";
 import { Context } from "@/data/contexts/Contexts";
 
