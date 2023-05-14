@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 5% auto;
+    justify-content: space-evenly;
+    width: 90%;
+}
+.lImage {
+    width: 45%;
+    object-fit: cover;
+    height: 100vh;
+    position: relative;
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.6);
+    border-radius: 5px;
+}
+.lImage img{
+    border-radius: 5px;
+}
+
+.fImage {
+    width: 45%;
+    object-fit: cover;
+    height: auto;
+    position: relative;
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.6);
+    border-radius: 5px;
+}
+.fImage img{
+    border-radius: 5px;
+}

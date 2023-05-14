@@ -5,7 +5,7 @@ export default function ParallaxImage() {
     <div className={styles.container}>
       <div className={styles.containerContent}>
         <div className={styles.content}>
-          <h1>CAFÉ PRETINHO</h1>
+          <h1>LITTLE BLACK COFFEE</h1>
           <p>
             Descubra o sabor de um café feito com paixão e experiência. Nossa
             seleção de grãos especiais é cuidadosamente torrada para trazer o
