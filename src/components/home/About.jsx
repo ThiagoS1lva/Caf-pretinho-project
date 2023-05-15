@@ -13,6 +13,7 @@ export default function About() {
             src="/company.jpg"
             fill={true}
             alt="Notebook com café"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
         <div className={styles.text}>
@@ -51,6 +52,7 @@ export default function About() {
             src="/lugar.jpg"
             fill={true}
             alt="Lugar do office"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -61,6 +63,7 @@ export default function About() {
             src="/grãos.jpg"
             fill={true}
             alt="Grãos"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
         <div className={styles.text}>

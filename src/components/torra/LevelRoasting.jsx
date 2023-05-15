@@ -19,12 +19,12 @@ export default function LevelRoasting() {
           </p>
         </div>
         <div className={styles.img}>
-          <Image src="/nivel.jpg" alt="copo com cafe" fill={true} />
+          <Image src="/nivel.jpg" alt="copo com cafe" fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
         </div>
       </div>
       <div className={styles.row}>
         <div className={styles.img}>
-          <Image src="/importancia.jpg" alt="café na torra" fill={true} />
+          <Image src="/importancia.jpg" alt="café na torra" fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
         </div>
         <div className={styles.text}>
           <h1>IMPORTÂNCIA DA TORRA</h1>

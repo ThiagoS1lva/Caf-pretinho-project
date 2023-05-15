@@ -20,7 +20,7 @@ export default function CoffeeStyle() {
       </div>
       <div className={styles.fresh}>
         <div className={styles.image}>
-          <Image src="/fresh.jpg" fill={true} alt="fresh coffee" />
+          <Image src="/fresh.jpg" fill={true} alt="fresh coffee" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
         </div>
         <div className={styles.description}>
           <h1>FRESH COFFEE</h1>

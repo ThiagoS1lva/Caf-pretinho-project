@@ -10,6 +10,7 @@ export default function CardCoffee(props ) {
           src={props.image}
           alt="coffee"
           fill={true}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
 

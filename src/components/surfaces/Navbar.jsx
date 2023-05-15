@@ -19,7 +19,7 @@ export default function Navbar() {
       setTransparent(false);
     }
   }
-  
+
   const { buttonSobre, sectionSobreRef } = useContext(Context);
 
   return (
@@ -29,8 +29,9 @@ export default function Navbar() {
           <li>Home</li>
         </Link>
         <li onClick={() => buttonSobre(sectionSobreRef)}>Sobre</li>
-        <li>Cardápio</li>
-        <li>Contato</li>
+        <Link href="/cardapio"><li>Cardápio</li></Link>
+        <Link href="/contato"><li>Contato</li></Link>
+
       </ul>
     </nav>
   );

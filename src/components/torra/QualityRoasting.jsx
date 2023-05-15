@@ -16,7 +16,7 @@ export default function QualityRoasting() {
         </p>
       </div>
       <div className={styles.image}>
-        <Image src="/quality.jpg" alt="café" fill={true}/>
+        <Image src="/quality.jpg" alt="café" fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
       </div>
     </div>
   );
