@@ -6,7 +6,7 @@ type contextProps = {
   buttonSobre: any;
 };
 
-const Context = createContext<contextProps | undefined>(undefined);
+const Context = createContext<contextProps | any>(undefined);
 
 function Contexts({ children }: contextProps) {
     const sectionSobreRef = useRef<HTMLDivElement>(null);
