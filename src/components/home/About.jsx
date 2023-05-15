@@ -4,10 +4,7 @@ import { useContext } from "react";
 import { Context } from "@/data/contexts/Contexts";
 
 export default function About() {
-  type ContextProp = {
-    sectionSobreRef: any;
-  }
-  const { sectionSobreRef } = useContext<ContextProp>(Context);
+  const { sectionSobreRef } = useContext(Context);
   return (
     <div ref={sectionSobreRef} className={styles.container}>
       <div className={styles.row}>

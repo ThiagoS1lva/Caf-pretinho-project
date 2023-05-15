@@ -1,15 +1,10 @@
 import { createContext, useRef } from "react";
 
-type contextProps = {
-  children: any;
-  sectionSobreRef: any;
-  buttonSobre: any;
-};
 
-const Context = createContext<contextProps | any>(undefined);
+const Context = createContext();
 
-function Contexts({ children }: contextProps) {
-    const sectionSobreRef = useRef<HTMLDivElement>(null);
+function Contexts({ children }) {
+    const sectionSobreRef = useRef(null);
   const buttonSobre = () => {
     if (sectionSobreRef.current) {
       sectionSobreRef.current.scrollIntoView({ behavior: "smooth" });

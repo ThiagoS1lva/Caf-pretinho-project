@@ -19,12 +19,8 @@ export default function Navbar() {
       setTransparent(false);
     }
   }
-
-  type MyContextType = {
-    sectionSobreRef: React.MutableRefObject<null>;
-    buttonSobre: () => void;
-  };
-  const { buttonSobre, sectionSobreRef } = useContext<MyContextType>(Context);
+  
+  const { buttonSobre, sectionSobreRef } = useContext(Context);
 
   return (
     <nav className={transparent ? styles.navbar1 : styles.navbar}>
