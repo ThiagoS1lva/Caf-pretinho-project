@@ -1,6 +1,6 @@
 .container {
     width: 90%;
-    margin: 0 auto;
+    margin: 5% auto 0 auto;
 }
 .container h1 {
     font-size: 3em;
@@ -51,6 +51,7 @@
 .desc a {
     display: flex;
 }
+
 .desc button {
     width: 130px;
     cursor: pointer;

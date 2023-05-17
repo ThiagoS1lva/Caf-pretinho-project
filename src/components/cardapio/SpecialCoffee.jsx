@@ -1,16 +1,16 @@
 import styles from '../styles/cardapio/SpecialCoffee.module.css'
 import axios from 'axios'
 import Image from 'next/image'
+import Link from 'next/link'
 import { useState, useEffect } from 'react'
 
 export default function SpecialCoffee() {
     const [coffee, setCoffee] = useState([])
 
     useEffect(() => {
-        axios.get('http://localhost:3001/coffee')
+        axios.get('https://server-cafezinho.onrender.com/Coffee')
             .then(response => {
                 setCoffee(response.data)
-                console.log(coffee[0])
             })
             .catch(error => {
                 console.log(error)
@@ -31,8 +31,8 @@ export default function SpecialCoffee() {
                             <Image src={coffee.IMG} fill={true} alt={coffee.NAME} />
                         </div>
                         <div className={styles.desc}>
-                            <p>R${coffee.PRICE}</p>
-                            <button>Comprar</button>
+                            <p>R${coffee.PRICE.toFixed(2)}</p>
+                            <Link href={`/cafe/${coffee.ID}`}><button>Comprar</button></Link>
                         </div>
                     </div>
 
