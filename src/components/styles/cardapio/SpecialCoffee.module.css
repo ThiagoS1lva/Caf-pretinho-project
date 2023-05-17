@@ -1,0 +1,64 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.container h1 {
+    font-size: 3em;
+    margin-bottom: 2%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px;
+}
+.img {
+    position: relative;
+    width: 80%;
+    height: 40vh;
+    margin: 0 auto;
+}
+.img img {
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.info p {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.desc {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+
+.desc p {
+    color: #555454;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.desc button {
+    width: 130px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #E0A943;
+    font-size: 1em;
+    color: #030B1C;
+    font-weight: bold;
+    transition: all 230ms ease-in-out;
+}
+.desc button:hover {
+    box-shadow: 0px 5px 15px #E0A943;
+}

@@ -1,9 +1,12 @@
-
+import SpecialCoffee from "../components/cardapio/SpecialCoffee";
 
 export default function Cardapio() {
 
 
     return (
-        <h1>Cardapio</h1>
+        <>
+            <h1 style={{ textAlign: 'center', fontSize:'4em' }}>Cardápio</h1>
+            <SpecialCoffee />
+        </>
     )
 }

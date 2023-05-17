@@ -1,8 +1,10 @@
-
+import Form from '../components/contato/Form'
 
 export default function Contato () {
 
     return (
-        <h1>Contato</h1>
+        <>
+        <Form/>
+        </>
     )
 }
