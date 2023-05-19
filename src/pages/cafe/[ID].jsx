@@ -7,9 +7,9 @@ import Image from "next/image";
 export default function CoffeeDetails() {
   const [cafe, setCafe] = useState({});
   const [loading, setLoading] = useState(true);
-  const [cafeina, setCafeina] = useState(false);
-  const [lactose, setLactose] = useState(false);
-  const [acucar, setAcucar] = useState(false);
+  const [cafeina, setCafeina] = useState(true);
+  const [lactose, setLactose] = useState(true);
+  const [acucar, setAcucar] = useState(true);
   const router = useRouter();
   const { ID } = router.query;
   

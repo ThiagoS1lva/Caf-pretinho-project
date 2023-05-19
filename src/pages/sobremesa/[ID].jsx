@@ -7,12 +7,11 @@ import Image from "next/image";
 export default function DessertDetails() {
     const [sobremesa, setSobremesa] = useState({});
     const [loading, setLoading] = useState(true);
-    const [cafeina, setCafeina] = useState(false);
-    const [lactose, setLactose] = useState(false);
-    const [acucar, setAcucar] = useState(false);
+    const [cafeina, setCafeina] = useState(true);
+    const [lactose, setLactose] = useState(true);
+    const [acucar, setAcucar] = useState(true);
     const router = useRouter();
     const { ID } = router.query;
-
     const handleCafeClick = () => {
         setCafeina(!cafeina)
     }
@@ -58,7 +57,9 @@ export default function DessertDetails() {
                         <div className={styles.option}>
                             <button onClick={handleLactoseClick} className={lactose ? styles.lactose_active : styles.lactose}>Lactose</button>
                             <button onClick={handleAcucarClick} className={acucar ? styles.sugar_active : styles.sugar}>Açucar</button>
-                            <button onClick={handleCafeClick} className={cafeina ? styles.coffee_active : styles.coffee}>Cafeina</button>
+                            {ID != '3' && <button onClick={handleCafeClick} className=
+                                {cafeina ? styles.coffee_active : styles.coffee}>Cafeina</button>}
+
                         </div>
                         <button className={styles.comprar}>Comprar</button>
                     </div>

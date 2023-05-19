@@ -8,9 +8,9 @@ import Image from "next/image";
 export default function DrinkDetails() {
     const [bebida, setBebida] = useState({});
     const [loading, setLoading] = useState(true);
-    const [cafeina, setCafeina] = useState(false);
-    const [lactose, setLactose] = useState(false);
-    const [acucar, setAcucar] = useState(false);
+    const [cafeina, setCafeina] = useState(true);
+    const [lactose, setLactose] = useState(true);
+    const [acucar, setAcucar] = useState(true);
     const router = useRouter();
     const { ID } = router.query;
 
@@ -48,7 +48,7 @@ export default function DrinkDetails() {
                     </div>
                     <div className={styles.content}>
                         <h1>{bebida.NAME}</h1>
-                        <h2>R${bebida.PRICE}</h2>
+                        <h2>R${bebida.PRICE.toFixed(2)}</h2>
 
                         <div className={styles.desc}>
                             <p><span>Tamanho: </span>{bebida.SIZES}</p>
