@@ -22,6 +22,7 @@
     width: 45%;
     margin: 0 auto;
     flex-direction: column;
+    max-height: 100%;
 }
 
 .content h1 {
@@ -110,6 +111,7 @@
     font-weight: bold;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
     transition: all 250ms ease-in-out;
+    cursor: pointer;
     
 }
 .comprar:hover {

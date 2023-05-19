@@ -12,7 +12,7 @@ export default function CoffeeDetails() {
   const [acucar, setAcucar] = useState(false);
   const router = useRouter();
   const { ID } = router.query;
-
+  
   const handleCafeClick = () => {
     setCafeina(!cafeina)
   }
@@ -57,9 +57,9 @@ export default function CoffeeDetails() {
             </div>
             <h1>Escolha as seguintes opções:</h1>
             <div className={styles.option}>
-              <button onClick={handleLactoseClick} className={!lactose ? styles.lactose_active : styles.lactose}>Lactose</button>
-              <button onClick={handleAcucarClick} className={!acucar ? styles.sugar_active : styles.sugar}>Açucar</button>
-              <button onClick={handleCafeClick} className={!cafeina ? styles.coffee_active : styles.coffee}>Cafeina</button>
+              <button onClick={handleLactoseClick} className={lactose ? styles.lactose_active : styles.lactose}>Lactose</button>
+              <button onClick={handleAcucarClick} className={acucar ? styles.sugar_active : styles.sugar}>Açucar</button>
+              <button onClick={handleCafeClick} className={cafeina ? styles.coffee_active : styles.coffee}>Cafeina</button>
             </div>
             <button className={styles.comprar}>Comprar</button>
           </div>
