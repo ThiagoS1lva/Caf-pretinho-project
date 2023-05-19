@@ -1,6 +1,8 @@
 import axios from  "axios";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
+import styles from '../../styles/Coffee.module.css'
+import Image from "next/image";
 
 export default function DessertDetails() {
     const [sobremesa, setSobremesa] = useState({});

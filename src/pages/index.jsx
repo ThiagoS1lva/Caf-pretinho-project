@@ -5,6 +5,7 @@ import About from '../components/home/About'
 import { Analytics } from '@vercel/analytics/react'
 import AboutCoffee from '../components/home/AboutCoffee'
 import CoffeeStyle from '../components/home/CoffeeStyle'
+import Contador from '../components/home/Contador'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <About/>
       <AboutCoffee/>
       <CoffeeStyle/>
+      <Contador/>
       <Analytics/>
     </>
   )
